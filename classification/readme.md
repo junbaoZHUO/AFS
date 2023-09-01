@@ -22,5 +22,5 @@ Run the script for training.
 ```shell
 python da_afs.py --dset office-home --lr 0.005 --net resnet50 --gpu_id $GPU_DEVICE --batch_size 36 --method MCC+S
 
-python da_swap_afs.py --dset visda --lr 0.001 --net resnet101 --gpu_id $GPU_DEVICE --batch_size 36 --method MCC+S
+python da_afs.py --dset visda --lr 0.001 --net resnet101 --gpu_id $GPU_DEVICE --batch_size 36 --method MCC+S
 ```
